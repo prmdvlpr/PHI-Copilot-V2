@@ -219,7 +219,7 @@ struct DailyCheckRootView: View {
                     }
                 }
                 content()
-                Text("Capstone prototype · simulated data, not personal health records. No Apple Health access. Optional Apple Intelligence runs on device when available. Adi and Hanna are demo aliases for Tom and Maya. Data is bundled in the app; choices are kept only for this session.")
+                Text("Capstone prototype · simulated data, not personal health records. No Apple Health access. Apple Intelligence runs on device when available. Adi and Hanna are demo aliases for Tom and Maya. Data is bundled in the app; choices are kept only for this session.")
                     .font(.caption).foregroundStyle(.secondary)
             }
             .padding(20)
@@ -257,7 +257,7 @@ struct DailyCheckRootView: View {
             Text("The sample data stays in this app. There is no HealthKit connection, server, or analytics. If enabled, selected evidence is passed to the on-device Apple Intelligence model. This app does not call a cloud AI service.")
         }
         PHICard {
-            Toggle("Apple Intelligence (optional)", isOn: $session.enableAI)
+            Toggle("Apple Intelligence", isOn: $session.enableAI)
             Text("Swift still calculates the baselines. When enabled, the on-device model can use consent-enabled demo evidence, selected context, and messages you send in Ask PHI. Rule-based explanations and chat replies remain available.")
                 .font(.caption).foregroundStyle(.secondary)
             Text(AIExplanationController.availability.message).font(.caption).foregroundStyle(.secondary)
@@ -304,7 +304,7 @@ struct DailyCheckRootView: View {
 
     private var explanation: some View {
         VStack(alignment: .leading, spacing: 18) {
-            ScreenHeading(step: "Evidence", title: "Here is the evidence.", subtitle: "Swift calculates the facts. Optional AI helps summarize them.")
+            ScreenHeading(step: "Evidence", title: "Here is the evidence.", subtitle: "Swift calculates the facts. AI helps summarize them.")
             PHICard {
                 Text("Facts & rule-based explanation").font(.headline)
                 Text(report.explanation).accessibilityIdentifier("groundedExplanation")
