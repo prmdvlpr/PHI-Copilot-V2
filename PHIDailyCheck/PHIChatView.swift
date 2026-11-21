@@ -59,7 +59,7 @@ struct PHIChatView: View {
                                 Text(message.text).textSelection(.enabled)
                             }
                             .padding(12)
-                            .background(message.source == nil ? Color.accentColor.opacity(0.12) : Color(uiColor: .secondarySystemGroupedBackground),
+                            .background(message.source == nil ? PHIStyle.green.opacity(0.12) : Color(uiColor: .secondarySystemGroupedBackground),
                                         in: RoundedRectangle(cornerRadius: 14))
                             .frame(maxWidth: .infinity, alignment: message.source == nil ? .trailing : .leading)
                         }
@@ -89,6 +89,7 @@ struct PHIChatView: View {
                     Image(systemName: "arrow.up").font(.headline).padding(3)
                 }
                 .buttonStyle(.borderedProminent)
+                .tint(PHIStyle.prominentGreen)
                 .accessibilityLabel("Send message")
                 .disabled(controller.isResponding || draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
             }

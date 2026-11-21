@@ -1,10 +1,33 @@
 import SwiftUI
 import Charts
 import Combine
+import UIKit
 
-private enum PHIStyle {
-    static let green = Color(red: 0.16, green: 0.39, blue: 0.29)
+enum PHIStyle {
+    // Use a deeper fill for prominent controls so their white labels stay legible.
+    static let prominentGreen = Color(uiColor: lightGreen)
+    static let green = Color(uiColor: UIColor { traits in
+        traits.userInterfaceStyle == .dark
+            ? UIColor(red: 0.47, green: 0.82, blue: 0.66, alpha: 1)
+            : PHIStyle.lightGreen
+    })
     static let warm = Color.orange.opacity(0.13)
+
+    private static let lightGreen = UIColor(red: 0.16, green: 0.39, blue: 0.29, alpha: 1)
+}
+
+private enum AppAppearance: String {
+    case system = "System"
+    case light = "Light"
+    case dark = "Dark"
+
+    var colorScheme: ColorScheme? {
+        switch self {
+        case .system: nil
+        case .light: .light
+        case .dark: .dark
+        }
+    }
 }
 
 private enum AppTab: Hashable { case today, ask, insights, settings }
@@ -30,7 +53,16 @@ struct DailyCheckRootView: View {
     @StateObject private var session = DemoSession()
     @StateObject private var ai = AIExplanationController()
     @StateObject private var chat = PHIChatController()
+    @AppStorage("phi.appearance") private var appearance = AppAppearance.system
     @Environment(\.scenePhase) private var scenePhase
+    @Environment(\.colorScheme) private var colorScheme
+
+    private var darkMode: Binding<Bool> {
+        Binding(
+            get: { (appearance.colorScheme ?? colorScheme) == .dark },
+            set: { appearance = $0 ? .dark : .light }
+        )
+    }
 
     private var readings: [DailyReading] {
         if session.scenario == .workshop {
@@ -80,7 +112,7 @@ struct DailyCheckRootView: View {
                             }
                         }
                         .navigationTitle("Today")
-                        .toolbar { demoToolbar }
+                        .toolbar { navigationToolbar }
                     }
                     .tabItem { Label("Today", systemImage: "sun.max") }.tag(AppTab.today)
                     NavigationStack {
@@ -92,7 +124,7 @@ struct DailyCheckRootView: View {
                         )
                         .navigationTitle("Ask PHI")
                         .navigationBarTitleDisplayMode(.inline)
-                        .toolbar { demoToolbar }
+                        .toolbar { navigationToolbar }
                     }
                     .tabItem { Label("Ask PHI", systemImage: "text.bubble") }.tag(AppTab.ask)
                     NavigationStack {
@@ -101,13 +133,13 @@ struct DailyCheckRootView: View {
                             else { FullFallbackView(evidence: report.restingHR, restoreDemo: restoreDemo, reviewAccess: { session.tab = .settings }) }
                         }
                         .navigationTitle("Insights")
-                        .toolbar { demoToolbar }
+                        .toolbar { navigationToolbar }
                     }
                     .tabItem { Label("Insights", systemImage: "chart.xyaxis.line") }.tag(AppTab.insights)
                     NavigationStack {
                         page { consent(isFirstVisit: false) }
-                            .navigationTitle("Settings")
-                            .toolbar { demoToolbar }
+                        .navigationTitle("Settings")
+                        .toolbar { navigationToolbar }
                     }
                     .tabItem { Label("Settings", systemImage: "gearshape") }.tag(AppTab.settings)
                 }
@@ -115,10 +147,11 @@ struct DailyCheckRootView: View {
                 NavigationStack {
                     page { consent(isFirstVisit: true) }
                         .navigationTitle("PHI Daily Check")
-                        .toolbar { demoToolbar }
+                        .toolbar { navigationToolbar }
                 }
             }
         }
+        .preferredColorScheme(appearance.colorScheme)
         .tint(PHIStyle.green)
         .environment(\.locale, Locale(identifier: "en"))
         .onChange(of: explanationKey) { _, _ in
@@ -134,7 +167,18 @@ struct DailyCheckRootView: View {
         }
     }
 
-    @ToolbarContentBuilder private var demoToolbar: some ToolbarContent {
+    @ToolbarContentBuilder private var navigationToolbar: some ToolbarContent {
+        ToolbarItem(placement: .topBarTrailing) {
+            HStack(spacing: 4) {
+                Image(systemName: "moon.fill")
+                    .font(.caption)
+                    .accessibilityHidden(true)
+                Toggle("Dark Mode", isOn: darkMode)
+                    .toggleStyle(.switch)
+                    .labelsHidden()
+                    .accessibilityIdentifier("darkModeToggle")
+            }
+        }
         ToolbarItem(placement: .topBarTrailing) {
             Menu {
                 Picker("Demo scenarios", selection: $session.scenario) {
@@ -222,7 +266,7 @@ struct DailyCheckRootView: View {
             Button {
                 session.accepted = true; session.tab = .today
             } label: { Text("Continue with these choices").frame(maxWidth: .infinity) }
-            .buttonStyle(.borderedProminent).controlSize(.large)
+            .buttonStyle(.borderedProminent).tint(PHIStyle.prominentGreen).controlSize(.large)
             .accessibilityIdentifier("continueConsent")
             Button("Continue without data") {
                 session.allowRestingHR = false; session.allowHRV = false; session.enableAI = false; session.accepted = true; session.tab = .today
@@ -231,7 +275,7 @@ struct DailyCheckRootView: View {
             Text("Changes take effect immediately. Changing data or AI access clears the Ask PHI conversation.")
                 .font(.caption).foregroundStyle(.secondary)
             Button("View my results") { session.tab = .today }
-                .buttonStyle(.borderedProminent).controlSize(.large)
+                .buttonStyle(.borderedProminent).tint(PHIStyle.prominentGreen).controlSize(.large)
         }
         Text("These choices apply to simulated data, not Apple Health permissions. A future HealthKit integration will require a separate system authorization request.")
             .font(.caption).foregroundStyle(.secondary)
@@ -254,7 +298,7 @@ struct DailyCheckRootView: View {
             if session.scenario == .noAI { aiFallback }
             Button { session.tab = .insights } label: {
                 Label("Why am I seeing this?", systemImage: "arrow.right").frame(maxWidth: .infinity)
-            }.buttonStyle(.borderedProminent).controlSize(.large)
+            }.buttonStyle(.borderedProminent).tint(PHIStyle.prominentGreen).controlSize(.large)
         }
     }
 
@@ -334,7 +378,7 @@ struct DailyCheckRootView: View {
                                                             ? "Simulated workshop daily data; source persona \(session.profile.sourcePersona); alias \(session.profile.displayName)"
                                                             : "Synthetic UI test fixture",
                                                             exerciseContext: session.context == .exercise), key: explanationKey)
-                    }.buttonStyle(.borderedProminent)
+                    }.buttonStyle(.borderedProminent).tint(PHIStyle.prominentGreen)
                     .accessibilityIdentifier("generateAppleIntelligence")
                 }
             }
@@ -486,7 +530,7 @@ private struct FullFallbackView: View {
             }
             if evidence.availability != .disabled {
                 Button(action: restoreDemo) { Text("Try the complete demo").frame(maxWidth: .infinity) }
-                    .buttonStyle(.borderedProminent).controlSize(.large)
+                    .buttonStyle(.borderedProminent).tint(PHIStyle.prominentGreen).controlSize(.large)
             }
             Button("Review data access", action: reviewAccess).buttonStyle(.bordered)
         }
