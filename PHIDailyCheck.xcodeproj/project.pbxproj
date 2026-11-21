@@ -14,6 +14,7 @@
 		843D6E897A58D9B12466ECF5 /* DailyCheckViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0890CDF6E9B45841091B9D1D /* DailyCheckViews.swift */; };
 		8788223BC99C611132C75E21 /* Resources/WorkshopDailySamples.json in Resources */ = {isa = PBXBuildFile; fileRef = 857811FB88DE01FF77C52714 /* Resources/WorkshopDailySamples.json */; };
 		8CA7AA4E7E3343C2833CE467 /* PHIChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CEBA0ED7847438418EC76 /* PHIChat.swift */; };
+		AABEBC3330B18654006A36F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABEBC3230B18617006A36F7 /* Assets.xcassets */; };
 		B0D76F6C59906662229D7CF6 /* AIExplanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DC7B28F34AA103C1DFA83 /* AIExplanation.swift */; };
 		ECADD82E3B6A62E40CD4CFEE /* Resources/WorkshopDailySamples.json in Resources */ = {isa = PBXBuildFile; fileRef = 857811FB88DE01FF77C52714 /* Resources/WorkshopDailySamples.json */; };
 		F01D0D3C9D79454D805AC424 /* DailyCheckEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4DD2DE795C035C7B0B19C /* DailyCheckEngine.swift */; };
@@ -30,6 +31,7 @@
 		857811FB88DE01FF77C52714 /* Resources/WorkshopDailySamples.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/WorkshopDailySamples.json; sourceTree = "<group>"; };
 		8A049F5DFEB19612AAE54A7F /* PHIDailyCheckWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIDailyCheckWatchApp.swift; sourceTree = "<group>"; };
 		92F0AD4130B15E6C0023F26A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AABEBC3230B18617006A36F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC45F87AF9C34B1A98CFAD4A /* PHIChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				ECCA59E2D8E99DF6684B6C95 /* PHIDailyCheckWatch */,
 				64292B1C2B2E13EAD8788FC8 /* PHIDailyCheck */,
 				FBDC4F23F93125BBEEAE800C /* Products */,
+				AABEBC3230B18617006A36F7 /* Assets.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABEBC3330B18654006A36F7 /* Assets.xcassets in Resources */,
 				ECADD82E3B6A62E40CD4CFEE /* Resources/WorkshopDailySamples.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +214,7 @@
 		46565C4A0036508D995B7257 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -233,10 +238,12 @@
 		639A7CA24D39909E713B47F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XY75F6KMPJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "PHI Daily Check";
@@ -247,7 +254,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.phi.capstone.dailycheck;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phi.copilot-ai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -261,10 +268,12 @@
 		7082CC0B6FC1282FCEABD07A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XY75F6KMPJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "PHI Daily Check";
@@ -275,7 +284,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.phi.capstone.dailycheck;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phi.copilot-ai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -303,6 +312,7 @@
 		A189BA6745F7D96AB45BE609 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
