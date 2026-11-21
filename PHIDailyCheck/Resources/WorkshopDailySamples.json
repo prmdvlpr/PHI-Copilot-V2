@@ -1,0 +1,743 @@
+{
+  "disclaimer": "SIMULATED WORKSHOP DATA. Adi and Hanna are demo aliases only, not measurements of these people. No age, sex, symptoms, diagnosis or ownership is inferred.",
+  "sourceFile": "Data/daily/daily_summary.csv",
+  "sourceSHA256": "9eeb2e91426eb4ddd1bdfcd6bfa53c3c8747498bb2c094e354941a8e5e879e50",
+  "profiles": [
+    {
+      "id": "adi",
+      "displayName": "Adi",
+      "sourcePersona": "tom",
+      "defaultReplayDay": 44,
+      "readings": [
+        {
+          "day": 1,
+          "date": "2026-09-02T00:00:00Z",
+          "restingHR": 58.4,
+          "hrvSDNN": 48.5
+        },
+        {
+          "day": 2,
+          "date": "2026-09-03T00:00:00Z",
+          "restingHR": 58.5,
+          "hrvSDNN": 52.0
+        },
+        {
+          "day": 3,
+          "date": "2026-09-04T00:00:00Z",
+          "restingHR": 58.7,
+          "hrvSDNN": 46.7
+        },
+        {
+          "day": 4,
+          "date": "2026-09-05T00:00:00Z",
+          "restingHR": 58.8,
+          "hrvSDNN": 55.6
+        },
+        {
+          "day": 5,
+          "date": "2026-09-06T00:00:00Z",
+          "restingHR": 58.6,
+          "hrvSDNN": 51.2
+        },
+        {
+          "day": 6,
+          "date": "2026-09-07T00:00:00Z",
+          "restingHR": 58.9,
+          "hrvSDNN": 59.9
+        },
+        {
+          "day": 7,
+          "date": "2026-09-08T00:00:00Z",
+          "restingHR": 60.5,
+          "hrvSDNN": 59.7
+        },
+        {
+          "day": 8,
+          "date": "2026-09-09T00:00:00Z",
+          "restingHR": 58.2,
+          "hrvSDNN": 54.2
+        },
+        {
+          "day": 9,
+          "date": "2026-09-10T00:00:00Z",
+          "restingHR": 61.5,
+          "hrvSDNN": 54.2
+        },
+        {
+          "day": 10,
+          "date": "2026-09-11T00:00:00Z",
+          "restingHR": 61.1,
+          "hrvSDNN": 60.3
+        },
+        {
+          "day": 11,
+          "date": "2026-09-12T00:00:00Z",
+          "restingHR": 62.7,
+          "hrvSDNN": 57.5
+        },
+        {
+          "day": 12,
+          "date": "2026-09-13T00:00:00Z",
+          "restingHR": 62.2,
+          "hrvSDNN": 54.4
+        },
+        {
+          "day": 13,
+          "date": "2026-09-14T00:00:00Z",
+          "restingHR": 61.5,
+          "hrvSDNN": 51.3
+        },
+        {
+          "day": 14,
+          "date": "2026-09-15T00:00:00Z",
+          "restingHR": 60.7,
+          "hrvSDNN": 56.9
+        },
+        {
+          "day": 15,
+          "date": "2026-09-16T00:00:00Z",
+          "restingHR": 59.8,
+          "hrvSDNN": 57.5
+        },
+        {
+          "day": 16,
+          "date": "2026-09-17T00:00:00Z",
+          "restingHR": 60.1,
+          "hrvSDNN": 71.9
+        },
+        {
+          "day": 17,
+          "date": "2026-09-18T00:00:00Z",
+          "restingHR": 60.8,
+          "hrvSDNN": 57.5
+        },
+        {
+          "day": 18,
+          "date": "2026-09-19T00:00:00Z",
+          "restingHR": 61.3,
+          "hrvSDNN": 56.1
+        },
+        {
+          "day": 19,
+          "date": "2026-09-20T00:00:00Z",
+          "restingHR": 62.7,
+          "hrvSDNN": 55.5
+        },
+        {
+          "day": 20,
+          "date": "2026-09-21T00:00:00Z",
+          "restingHR": 60.4,
+          "hrvSDNN": 60.2
+        },
+        {
+          "day": 21,
+          "date": "2026-09-22T00:00:00Z",
+          "restingHR": 61.2,
+          "hrvSDNN": 57.4
+        },
+        {
+          "day": 22,
+          "date": "2026-09-23T00:00:00Z",
+          "restingHR": 59.6,
+          "hrvSDNN": 58.0
+        },
+        {
+          "day": 23,
+          "date": "2026-09-24T00:00:00Z",
+          "restingHR": 59.7,
+          "hrvSDNN": 59.5
+        },
+        {
+          "day": 24,
+          "date": "2026-09-25T00:00:00Z",
+          "restingHR": 59.4,
+          "hrvSDNN": 60.8
+        },
+        {
+          "day": 25,
+          "date": "2026-09-26T00:00:00Z",
+          "restingHR": 61.0,
+          "hrvSDNN": 51.3
+        },
+        {
+          "day": 26,
+          "date": "2026-09-27T00:00:00Z",
+          "restingHR": 60.2,
+          "hrvSDNN": 52.3
+        },
+        {
+          "day": 27,
+          "date": "2026-09-28T00:00:00Z",
+          "restingHR": 60.2,
+          "hrvSDNN": 47.4
+        },
+        {
+          "day": 28,
+          "date": "2026-09-29T00:00:00Z",
+          "restingHR": 61.1,
+          "hrvSDNN": 54.8
+        },
+        {
+          "day": 29,
+          "date": "2026-09-30T00:00:00Z",
+          "restingHR": 60.7,
+          "hrvSDNN": 52.7
+        },
+        {
+          "day": 30,
+          "date": "2026-10-01T00:00:00Z",
+          "restingHR": 61.6,
+          "hrvSDNN": 47.7
+        },
+        {
+          "day": 31,
+          "date": "2026-10-02T00:00:00Z",
+          "restingHR": 60.5,
+          "hrvSDNN": 48.0
+        },
+        {
+          "day": 32,
+          "date": "2026-10-03T00:00:00Z",
+          "restingHR": 62.2,
+          "hrvSDNN": 50.0
+        },
+        {
+          "day": 33,
+          "date": "2026-10-04T00:00:00Z",
+          "restingHR": 61.7,
+          "hrvSDNN": 46.3
+        },
+        {
+          "day": 34,
+          "date": "2026-10-05T00:00:00Z",
+          "restingHR": 60.3,
+          "hrvSDNN": 48.9
+        },
+        {
+          "day": 35,
+          "date": "2026-10-06T00:00:00Z",
+          "restingHR": 61.0,
+          "hrvSDNN": 54.6
+        },
+        {
+          "day": 36,
+          "date": "2026-10-07T00:00:00Z",
+          "restingHR": 61.8,
+          "hrvSDNN": 57.2
+        },
+        {
+          "day": 37,
+          "date": "2026-10-08T00:00:00Z",
+          "restingHR": 61.1,
+          "hrvSDNN": 60.8
+        },
+        {
+          "day": 38,
+          "date": "2026-10-09T00:00:00Z",
+          "restingHR": 59.5,
+          "hrvSDNN": 52.2
+        },
+        {
+          "day": 39,
+          "date": "2026-10-10T00:00:00Z",
+          "restingHR": 60.7,
+          "hrvSDNN": 52.4
+        },
+        {
+          "day": 40,
+          "date": "2026-10-11T00:00:00Z",
+          "restingHR": 61.1,
+          "hrvSDNN": 50.5
+        },
+        {
+          "day": 41,
+          "date": "2026-10-12T00:00:00Z",
+          "restingHR": 59.4,
+          "hrvSDNN": 52.2
+        },
+        {
+          "day": 42,
+          "date": "2026-10-13T00:00:00Z",
+          "restingHR": 59.8,
+          "hrvSDNN": 55.2
+        },
+        {
+          "day": 43,
+          "date": "2026-10-14T00:00:00Z",
+          "restingHR": 63.4,
+          "hrvSDNN": 44.4
+        },
+        {
+          "day": 44,
+          "date": "2026-10-15T00:00:00Z",
+          "restingHR": 65.6,
+          "hrvSDNN": 42.6
+        },
+        {
+          "day": 45,
+          "date": "2026-10-16T00:00:00Z",
+          "restingHR": 69.5,
+          "hrvSDNN": 31.9
+        },
+        {
+          "day": 46,
+          "date": "2026-10-17T00:00:00Z",
+          "restingHR": 68.0,
+          "hrvSDNN": 33.5
+        },
+        {
+          "day": 47,
+          "date": "2026-10-18T00:00:00Z",
+          "restingHR": 70.1,
+          "hrvSDNN": 36.9
+        },
+        {
+          "day": 48,
+          "date": "2026-10-19T00:00:00Z",
+          "restingHR": 70.0,
+          "hrvSDNN": 38.6
+        },
+        {
+          "day": 49,
+          "date": "2026-10-20T00:00:00Z",
+          "restingHR": 69.6,
+          "hrvSDNN": 40.9
+        },
+        {
+          "day": 50,
+          "date": "2026-10-21T00:00:00Z",
+          "restingHR": 66.1,
+          "hrvSDNN": 44.3
+        },
+        {
+          "day": 51,
+          "date": "2026-10-22T00:00:00Z",
+          "restingHR": 65.7,
+          "hrvSDNN": 44.7
+        },
+        {
+          "day": 52,
+          "date": "2026-10-23T00:00:00Z",
+          "restingHR": 64.6,
+          "hrvSDNN": 42.2
+        },
+        {
+          "day": 53,
+          "date": "2026-10-24T00:00:00Z",
+          "restingHR": 63.7,
+          "hrvSDNN": 48.6
+        },
+        {
+          "day": 54,
+          "date": "2026-10-25T00:00:00Z",
+          "restingHR": 62.2,
+          "hrvSDNN": 52.3
+        },
+        {
+          "day": 55,
+          "date": "2026-10-26T00:00:00Z",
+          "restingHR": 62.6,
+          "hrvSDNN": 61.1
+        },
+        {
+          "day": 56,
+          "date": "2026-10-27T00:00:00Z",
+          "restingHR": 61.7,
+          "hrvSDNN": 46.3
+        },
+        {
+          "day": 57,
+          "date": "2026-10-28T00:00:00Z",
+          "restingHR": 60.4,
+          "hrvSDNN": 49.5
+        },
+        {
+          "day": 58,
+          "date": "2026-10-29T00:00:00Z",
+          "restingHR": 59.4,
+          "hrvSDNN": 58.0
+        },
+        {
+          "day": 59,
+          "date": "2026-10-30T00:00:00Z",
+          "restingHR": 59.7,
+          "hrvSDNN": 52.4
+        },
+        {
+          "day": 60,
+          "date": "2026-10-31T00:00:00Z",
+          "restingHR": 59.7,
+          "hrvSDNN": 64.3
+        }
+      ]
+    },
+    {
+      "id": "hanna",
+      "displayName": "Hanna",
+      "sourcePersona": "maya",
+      "defaultReplayDay": 30,
+      "readings": [
+        {
+          "day": 1,
+          "date": "2026-09-02T00:00:00Z",
+          "restingHR": 50.6,
+          "hrvSDNN": 69.4
+        },
+        {
+          "day": 2,
+          "date": "2026-09-03T00:00:00Z",
+          "restingHR": 51.4,
+          "hrvSDNN": 66.1
+        },
+        {
+          "day": 3,
+          "date": "2026-09-04T00:00:00Z",
+          "restingHR": 49.5,
+          "hrvSDNN": 62.5
+        },
+        {
+          "day": 4,
+          "date": "2026-09-05T00:00:00Z",
+          "restingHR": 52.1,
+          "hrvSDNN": 63.0
+        },
+        {
+          "day": 5,
+          "date": "2026-09-06T00:00:00Z",
+          "restingHR": 52.8,
+          "hrvSDNN": 67.7
+        },
+        {
+          "day": 6,
+          "date": "2026-09-07T00:00:00Z",
+          "restingHR": 52.1,
+          "hrvSDNN": 69.9
+        },
+        {
+          "day": 7,
+          "date": "2026-09-08T00:00:00Z",
+          "restingHR": 51.7,
+          "hrvSDNN": 72.2
+        },
+        {
+          "day": 8,
+          "date": "2026-09-09T00:00:00Z",
+          "restingHR": 52.2,
+          "hrvSDNN": 66.3
+        },
+        {
+          "day": 9,
+          "date": "2026-09-10T00:00:00Z",
+          "restingHR": 51.8,
+          "hrvSDNN": 69.9
+        },
+        {
+          "day": 10,
+          "date": "2026-09-11T00:00:00Z",
+          "restingHR": 51.6,
+          "hrvSDNN": 62.9
+        },
+        {
+          "day": 11,
+          "date": "2026-09-12T00:00:00Z",
+          "restingHR": 52.6,
+          "hrvSDNN": 64.1
+        },
+        {
+          "day": 12,
+          "date": "2026-09-13T00:00:00Z",
+          "restingHR": 52.9,
+          "hrvSDNN": 73.1
+        },
+        {
+          "day": 13,
+          "date": "2026-09-14T00:00:00Z",
+          "restingHR": 52.5,
+          "hrvSDNN": 72.6
+        },
+        {
+          "day": 14,
+          "date": "2026-09-15T00:00:00Z",
+          "restingHR": 52.2,
+          "hrvSDNN": 78.1
+        },
+        {
+          "day": 15,
+          "date": "2026-09-16T00:00:00Z",
+          "restingHR": 52.3,
+          "hrvSDNN": 77.4
+        },
+        {
+          "day": 16,
+          "date": "2026-09-17T00:00:00Z",
+          "restingHR": 51.5,
+          "hrvSDNN": 73.9
+        },
+        {
+          "day": 17,
+          "date": "2026-09-18T00:00:00Z",
+          "restingHR": 51.2,
+          "hrvSDNN": 69.7
+        },
+        {
+          "day": 18,
+          "date": "2026-09-19T00:00:00Z",
+          "restingHR": 52.2,
+          "hrvSDNN": 77.5
+        },
+        {
+          "day": 19,
+          "date": "2026-09-20T00:00:00Z",
+          "restingHR": 51.9,
+          "hrvSDNN": 67.9
+        },
+        {
+          "day": 20,
+          "date": "2026-09-21T00:00:00Z",
+          "restingHR": 50.4,
+          "hrvSDNN": 81.0
+        },
+        {
+          "day": 21,
+          "date": "2026-09-22T00:00:00Z",
+          "restingHR": 50.5,
+          "hrvSDNN": 72.7
+        },
+        {
+          "day": 22,
+          "date": "2026-09-23T00:00:00Z",
+          "restingHR": 51.8,
+          "hrvSDNN": 72.6
+        },
+        {
+          "day": 23,
+          "date": "2026-09-24T00:00:00Z",
+          "restingHR": 51.6,
+          "hrvSDNN": 74.7
+        },
+        {
+          "day": 24,
+          "date": "2026-09-25T00:00:00Z",
+          "restingHR": 51.6,
+          "hrvSDNN": 75.2
+        },
+        {
+          "day": 25,
+          "date": "2026-09-26T00:00:00Z",
+          "restingHR": 52.5,
+          "hrvSDNN": 67.6
+        },
+        {
+          "day": 26,
+          "date": "2026-09-27T00:00:00Z",
+          "restingHR": 54.3,
+          "hrvSDNN": 61.3
+        },
+        {
+          "day": 27,
+          "date": "2026-09-28T00:00:00Z",
+          "restingHR": 52.6,
+          "hrvSDNN": 68.3
+        },
+        {
+          "day": 28,
+          "date": "2026-09-29T00:00:00Z",
+          "restingHR": 53.9,
+          "hrvSDNN": 66.1
+        },
+        {
+          "day": 29,
+          "date": "2026-09-30T00:00:00Z",
+          "restingHR": 51.7,
+          "hrvSDNN": 72.3
+        },
+        {
+          "day": 30,
+          "date": "2026-10-01T00:00:00Z",
+          "restingHR": 52.0,
+          "hrvSDNN": 75.2
+        },
+        {
+          "day": 31,
+          "date": "2026-10-02T00:00:00Z",
+          "restingHR": 50.7,
+          "hrvSDNN": 64.2
+        },
+        {
+          "day": 32,
+          "date": "2026-10-03T00:00:00Z",
+          "restingHR": 52.7,
+          "hrvSDNN": 60.0
+        },
+        {
+          "day": 33,
+          "date": "2026-10-04T00:00:00Z",
+          "restingHR": 53.4,
+          "hrvSDNN": 55.3
+        },
+        {
+          "day": 34,
+          "date": "2026-10-05T00:00:00Z",
+          "restingHR": 54.1,
+          "hrvSDNN": 66.3
+        },
+        {
+          "day": 35,
+          "date": "2026-10-06T00:00:00Z",
+          "restingHR": 52.3,
+          "hrvSDNN": 79.6
+        },
+        {
+          "day": 36,
+          "date": "2026-10-07T00:00:00Z",
+          "restingHR": 52.9,
+          "hrvSDNN": 73.7
+        },
+        {
+          "day": 37,
+          "date": "2026-10-08T00:00:00Z",
+          "restingHR": 52.0,
+          "hrvSDNN": 74.1
+        },
+        {
+          "day": 38,
+          "date": "2026-10-09T00:00:00Z",
+          "restingHR": 51.5,
+          "hrvSDNN": 67.9
+        },
+        {
+          "day": 39,
+          "date": "2026-10-10T00:00:00Z",
+          "restingHR": 52.3,
+          "hrvSDNN": 65.0
+        },
+        {
+          "day": 40,
+          "date": "2026-10-11T00:00:00Z",
+          "restingHR": 53.1,
+          "hrvSDNN": 55.0
+        },
+        {
+          "day": 41,
+          "date": "2026-10-12T00:00:00Z",
+          "restingHR": 52.9,
+          "hrvSDNN": 65.5
+        },
+        {
+          "day": 42,
+          "date": "2026-10-13T00:00:00Z",
+          "restingHR": 51.8,
+          "hrvSDNN": 73.3
+        },
+        {
+          "day": 43,
+          "date": "2026-10-14T00:00:00Z",
+          "restingHR": 51.0,
+          "hrvSDNN": 70.9
+        },
+        {
+          "day": 44,
+          "date": "2026-10-15T00:00:00Z",
+          "restingHR": 53.0,
+          "hrvSDNN": 78.7
+        },
+        {
+          "day": 45,
+          "date": "2026-10-16T00:00:00Z",
+          "restingHR": 53.3,
+          "hrvSDNN": 76.3
+        },
+        {
+          "day": 46,
+          "date": "2026-10-17T00:00:00Z",
+          "restingHR": 53.6,
+          "hrvSDNN": 73.9
+        },
+        {
+          "day": 47,
+          "date": "2026-10-18T00:00:00Z",
+          "restingHR": 55.4,
+          "hrvSDNN": 69.6
+        },
+        {
+          "day": 48,
+          "date": "2026-10-19T00:00:00Z",
+          "restingHR": 53.1,
+          "hrvSDNN": 76.3
+        },
+        {
+          "day": 49,
+          "date": "2026-10-20T00:00:00Z",
+          "restingHR": 55.5,
+          "hrvSDNN": 80.3
+        },
+        {
+          "day": 50,
+          "date": "2026-10-21T00:00:00Z",
+          "restingHR": 57.7,
+          "hrvSDNN": 71.9
+        },
+        {
+          "day": 51,
+          "date": "2026-10-22T00:00:00Z",
+          "restingHR": 57.2,
+          "hrvSDNN": 61.4
+        },
+        {
+          "day": 52,
+          "date": "2026-10-23T00:00:00Z",
+          "restingHR": 61.0,
+          "hrvSDNN": 50.3
+        },
+        {
+          "day": 53,
+          "date": "2026-10-24T00:00:00Z",
+          "restingHR": 56.7,
+          "hrvSDNN": 58.6
+        },
+        {
+          "day": 54,
+          "date": "2026-10-25T00:00:00Z",
+          "restingHR": 54.1,
+          "hrvSDNN": 63.6
+        },
+        {
+          "day": 55,
+          "date": "2026-10-26T00:00:00Z",
+          "restingHR": 52.8,
+          "hrvSDNN": 79.2
+        },
+        {
+          "day": 56,
+          "date": "2026-10-27T00:00:00Z",
+          "restingHR": 52.4,
+          "hrvSDNN": 69.9
+        },
+        {
+          "day": 57,
+          "date": "2026-10-28T00:00:00Z",
+          "restingHR": 51.9,
+          "hrvSDNN": 74.8
+        },
+        {
+          "day": 58,
+          "date": "2026-10-29T00:00:00Z",
+          "restingHR": 52.3,
+          "hrvSDNN": 78.4
+        },
+        {
+          "day": 59,
+          "date": "2026-10-30T00:00:00Z",
+          "restingHR": 53.6,
+          "hrvSDNN": 77.6
+        },
+        {
+          "day": 60,
+          "date": "2026-10-31T00:00:00Z",
+          "restingHR": 52.3,
+          "hrvSDNN": 80.7
+        }
+      ]
+    }
+  ]
+}

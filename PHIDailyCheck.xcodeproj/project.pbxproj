@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054CF47CF4053BD6679341A9 /* DailyCheckEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4DD2DE795C035C7B0B19C /* DailyCheckEngine.swift */; };
+		20080029D8C32873105476BB /* PHIDailyCheckWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A049F5DFEB19612AAE54A7F /* PHIDailyCheckWatchApp.swift */; };
+		7E0CE9C0B2DB103209CB855C /* PHIDailyCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1604ED3440AA1DCE5DF75 /* PHIDailyCheckApp.swift */; };
+		843D6E897A58D9B12466ECF5 /* DailyCheckViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0890CDF6E9B45841091B9D1D /* DailyCheckViews.swift */; };
+		8788223BC99C611132C75E21 /* Resources/WorkshopDailySamples.json in Resources */ = {isa = PBXBuildFile; fileRef = 857811FB88DE01FF77C52714 /* Resources/WorkshopDailySamples.json */; };
+		B0D76F6C59906662229D7CF6 /* AIExplanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DC7B28F34AA103C1DFA83 /* AIExplanation.swift */; };
+		4453C7FA5B464A399AAE6EAD /* PHIChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45F87AF9C34B1A98CFAD4A /* PHIChatView.swift */; };
+		8CA7AA4E7E3343C2833CE467 /* PHIChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CEBA0ED7847438418EC76 /* PHIChat.swift */; };
+		ECADD82E3B6A62E40CD4CFEE /* Resources/WorkshopDailySamples.json in Resources */ = {isa = PBXBuildFile; fileRef = 857811FB88DE01FF77C52714 /* Resources/WorkshopDailySamples.json */; };
+		F01D0D3C9D79454D805AC424 /* DailyCheckEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4DD2DE795C035C7B0B19C /* DailyCheckEngine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0890CDF6E9B45841091B9D1D /* DailyCheckViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckViews.swift; sourceTree = "<group>"; };
+		1DA4DD2DE795C035C7B0B19C /* DailyCheckEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckEngine.swift; sourceTree = "<group>"; };
+		29A1604ED3440AA1DCE5DF75 /* PHIDailyCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIDailyCheckApp.swift; sourceTree = "<group>"; };
+		584DC7B28F34AA103C1DFA83 /* AIExplanation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIExplanation.swift; sourceTree = "<group>"; };
+		AC45F87AF9C34B1A98CFAD4A /* PHIChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIChatView.swift; sourceTree = "<group>"; };
+		7E3CEBA0ED7847438418EC76 /* PHIChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIChat.swift; sourceTree = "<group>"; };
+		641798A9665782518806AD6E /* PHIDailyCheckWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = PHIDailyCheckWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1043473D55BFA90E8530D3 /* PHIDailyCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = PHIDailyCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		857811FB88DE01FF77C52714 /* Resources/WorkshopDailySamples.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/WorkshopDailySamples.json; sourceTree = "<group>"; };
+		8A049F5DFEB19612AAE54A7F /* PHIDailyCheckWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIDailyCheckWatchApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E49CAC89760EF85631CE6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64292B1C2B2E13EAD8788FC8 /* PHIDailyCheck */ = {
+			isa = PBXGroup;
+			children = (
+				584DC7B28F34AA103C1DFA83 /* AIExplanation.swift */,
+				AC45F87AF9C34B1A98CFAD4A /* PHIChatView.swift */,
+				7E3CEBA0ED7847438418EC76 /* PHIChat.swift */,
+				857811FB88DE01FF77C52714 /* Resources/WorkshopDailySamples.json */,
+				29A1604ED3440AA1DCE5DF75 /* PHIDailyCheckApp.swift */,
+				1DA4DD2DE795C035C7B0B19C /* DailyCheckEngine.swift */,
+				0890CDF6E9B45841091B9D1D /* DailyCheckViews.swift */,
+			);
+			path = PHIDailyCheck;
+			sourceTree = "<group>";
+		};
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+				ECCA59E2D8E99DF6684B6C95 /* PHIDailyCheckWatch */,
+				64292B1C2B2E13EAD8788FC8 /* PHIDailyCheck */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCA59E2D8E99DF6684B6C95 /* PHIDailyCheckWatch */ = {
+			isa = PBXGroup;
+			children = (
+				8A049F5DFEB19612AAE54A7F /* PHIDailyCheckWatchApp.swift */,
+			);
+			path = PHIDailyCheckWatch;
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				641798A9665782518806AD6E /* PHIDailyCheckWatch.app */,
+				7D1043473D55BFA90E8530D3 /* PHIDailyCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* PHIDailyCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "PHIDailyCheck" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHIDailyCheck;
+			productName = PHIDailyCheck;
+			productReference = 7D1043473D55BFA90E8530D3 /* PHIDailyCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		272E4FF2261F67D150098B86 /* PHIDailyCheckWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC742DDB93696F0B9929947E /* Build configuration list for PBXNativeTarget "PHIDailyCheckWatch" */;
+			buildPhases = (
+				39DF4478C8DF429376DD7156 /* Sources */,
+				2E49CAC89760EF85631CE6A9 /* Frameworks */,
+				48F2E75E9A1B15CFA64F60BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHIDailyCheckWatch;
+			productName = PHIDailyCheckWatch;
+			productReference = 641798A9665782518806AD6E /* PHIDailyCheckWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "PHIDailyCheck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272E4FF2261F67D150098B86 /* PHIDailyCheckWatch */,
+				0E8A3AD980EC179856012B7E /* PHIDailyCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECADD82E3B6A62E40CD4CFEE /* Resources/WorkshopDailySamples.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F2E75E9A1B15CFA64F60BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8788223BC99C611132C75E21 /* Resources/WorkshopDailySamples.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39DF4478C8DF429376DD7156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20080029D8C32873105476BB /* PHIDailyCheckWatchApp.swift in Sources */,
+				054CF47CF4053BD6679341A9 /* DailyCheckEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D76F6C59906662229D7CF6 /* AIExplanation.swift in Sources */,
+				4453C7FA5B464A399AAE6EAD /* PHIChatView.swift in Sources */,
+				8CA7AA4E7E3343C2833CE467 /* PHIChat.swift in Sources */,
+				7E0CE9C0B2DB103209CB855C /* PHIDailyCheckApp.swift in Sources */,
+				F01D0D3C9D79454D805AC424 /* DailyCheckEngine.swift in Sources */,
+				843D6E897A58D9B12466ECF5 /* DailyCheckViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46565C4A0036508D995B7257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XY75F6KMPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "PHI Daily Check";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phi.capstone.dailycheck.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		639A7CA24D39909E713B47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "PHI Daily Check";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phi.capstone.dailycheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7082CC0B6FC1282FCEABD07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "PHI Daily Check";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phi.capstone.dailycheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A189BA6745F7D96AB45BE609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XY75F6KMPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "PHI Daily Check";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phi.capstone.dailycheck.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "PHIDailyCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC742DDB93696F0B9929947E /* Build configuration list for PBXNativeTarget "PHIDailyCheckWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46565C4A0036508D995B7257 /* Debug */,
+				A189BA6745F7D96AB45BE609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "PHIDailyCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7082CC0B6FC1282FCEABD07A /* Debug */,
+				639A7CA24D39909E713B47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
