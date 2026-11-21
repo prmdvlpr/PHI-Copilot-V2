@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		054CF47CF4053BD6679341A9 /* DailyCheckEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4DD2DE795C035C7B0B19C /* DailyCheckEngine.swift */; };
 		20080029D8C32873105476BB /* PHIDailyCheckWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A049F5DFEB19612AAE54A7F /* PHIDailyCheckWatchApp.swift */; };
+		4453C7FA5B464A399AAE6EAD /* PHIChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45F87AF9C34B1A98CFAD4A /* PHIChatView.swift */; };
 		7E0CE9C0B2DB103209CB855C /* PHIDailyCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1604ED3440AA1DCE5DF75 /* PHIDailyCheckApp.swift */; };
 		843D6E897A58D9B12466ECF5 /* DailyCheckViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0890CDF6E9B45841091B9D1D /* DailyCheckViews.swift */; };
 		8788223BC99C611132C75E21 /* Resources/WorkshopDailySamples.json in Resources */ = {isa = PBXBuildFile; fileRef = 857811FB88DE01FF77C52714 /* Resources/WorkshopDailySamples.json */; };
-		B0D76F6C59906662229D7CF6 /* AIExplanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DC7B28F34AA103C1DFA83 /* AIExplanation.swift */; };
-		4453C7FA5B464A399AAE6EAD /* PHIChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45F87AF9C34B1A98CFAD4A /* PHIChatView.swift */; };
 		8CA7AA4E7E3343C2833CE467 /* PHIChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CEBA0ED7847438418EC76 /* PHIChat.swift */; };
+		B0D76F6C59906662229D7CF6 /* AIExplanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DC7B28F34AA103C1DFA83 /* AIExplanation.swift */; };
 		ECADD82E3B6A62E40CD4CFEE /* Resources/WorkshopDailySamples.json in Resources */ = {isa = PBXBuildFile; fileRef = 857811FB88DE01FF77C52714 /* Resources/WorkshopDailySamples.json */; };
 		F01D0D3C9D79454D805AC424 /* DailyCheckEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4DD2DE795C035C7B0B19C /* DailyCheckEngine.swift */; };
 /* End PBXBuildFile section */
@@ -24,12 +24,13 @@
 		1DA4DD2DE795C035C7B0B19C /* DailyCheckEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckEngine.swift; sourceTree = "<group>"; };
 		29A1604ED3440AA1DCE5DF75 /* PHIDailyCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIDailyCheckApp.swift; sourceTree = "<group>"; };
 		584DC7B28F34AA103C1DFA83 /* AIExplanation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIExplanation.swift; sourceTree = "<group>"; };
-		AC45F87AF9C34B1A98CFAD4A /* PHIChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIChatView.swift; sourceTree = "<group>"; };
-		7E3CEBA0ED7847438418EC76 /* PHIChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIChat.swift; sourceTree = "<group>"; };
 		641798A9665782518806AD6E /* PHIDailyCheckWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = PHIDailyCheckWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1043473D55BFA90E8530D3 /* PHIDailyCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = PHIDailyCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3CEBA0ED7847438418EC76 /* PHIChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIChat.swift; sourceTree = "<group>"; };
 		857811FB88DE01FF77C52714 /* Resources/WorkshopDailySamples.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/WorkshopDailySamples.json; sourceTree = "<group>"; };
 		8A049F5DFEB19612AAE54A7F /* PHIDailyCheckWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIDailyCheckWatchApp.swift; sourceTree = "<group>"; };
+		92F0AD4130B15E6C0023F26A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AC45F87AF9C34B1A98CFAD4A /* PHIChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 		B28B7AF69320201D1CF206EB = {
 			isa = PBXGroup;
 			children = (
+				92F0AD4130B15E6C0023F26A /* .gitignore */,
 				ECCA59E2D8E99DF6684B6C95 /* PHIDailyCheckWatch */,
 				64292B1C2B2E13EAD8788FC8 /* PHIDailyCheck */,
 				FBDC4F23F93125BBEEAE800C /* Products */,

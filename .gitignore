@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Xcode local settings
+xcuserdata/
+*.xcuserstate
+
+# Xcode build and export artifacts
+/DerivedData/
+/build/
+*.xcarchive/
+*.xcresult/
+*.ipa
+*.dSYM/
+*.dSYM.zip
+
+# Swift Package Manager local artifacts
+.build/
+.swiftpm/xcode/xcuserdata/
+
